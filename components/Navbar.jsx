@@ -16,6 +16,7 @@ const Navbar = () => {
     }
   };
 
+  // Close menu on resize
   useEffect(() => {
     window.addEventListener("resize", closeMenuOnResize);
     return () => {
